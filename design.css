@@ -317,6 +317,7 @@ header ul li a:hover::after{
     display: flex;
     transition: transform 0.5s;
     pointer-events: all;
+    filter: blur(3px);
 }
 .layer{
     width: 100%;
@@ -523,24 +524,24 @@ header.sticky:hover{
 @keyframes loading {
     0% {
       opacity: 0;
-      transform: translateY(30px);
+      transform: translateX(30px);
     }
   
     100% {
       opacity: 1;
-      transform: translateY(0px);
+      transform: translateX(0px);
     }
   }
   
   @keyframes loading2 {
     0% {
       opacity: 1;
-      transform: translateY(0px);
+      transform: translateX(0px);
     }
   
     100% {
       opacity: 0;
-      transform: translateY(30px);
+      transform: translateX(30px);
     }
   }
   
