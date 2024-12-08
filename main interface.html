@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="design.css">
+        <script src="https://kit.fontawesome.com/27a48a014b.js" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="darkmode.js" defer></script>
+        <title>kent</title>
+    </head>
+    <body class="darkmode"> 
+    <div id="header" class="header">
+    <div class="container">
+        <header>
+            <a href="#" class="logo">kent</a>
+            <ul class="nav-links">
+                <li><a href="#header" class="nav-link">Home</a></li>
+                <li><a href="#About" class="nav-link">About</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                <li><a href="#contact" class="nav-link">Contacts</a></li>
+             
+                <label class="switch" id="moon">
+                    <input type="checkbox">
+                    <span class="slider"></span>
+                </label>
+            </ul>
+        </header> 
+        <section class="banner"></section>
+        <script type="text/javascript">
+            window.addEventListener("scroll", function(){
+                var header = document.querySelector("header");
+                header.classList.toggle("sticky", window.scrollY > 0)
+            }
+        )
+        </script>
+        <div class="header-text close">
+            <p>Designer San Buhay Mo</p>
+            <h1>Hi, I'm <span class="text sec-text">Kent</span> <br>from the outer space of planet namek</h1>
+        </div>
+    </div>
+    </div>
+    <div id="About">
+<div class="container">
+    <div class="row">
+        <div class="about-col-1">
+            <img src="images/me.jpg" width="600" height="550">
+        </div>
+        <div class="about-col-2">
+            <h1 class="sub-title">About me</h1>
+            <p>
+                Ako si Kent Patrick M. Marfil, naka istar sa Baga-Uma Aroroy, Masbate. Masasabi ko sa sadiri ko na I am a very passionate person when it comes to programming specially Web Development because i want to DESIGN, this started way back in quarantine days where i consumed all my time editing videos but i realized that kulang pa and then i bumped into this one video where a guy was designing something and i checked the comments and saw he was designing for a website and i was like DAMN and the rest was history.</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Assist</span><br>Designing Web Interfaces</li>
+                        <li><span>Web Development</span><br>Web Design Development</li>
+                        <li><span>Support</span><br>Designing App Interfaces</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2024</span><br>Fixed a Code that was destroyed by my intstructor </li>
+                        <li><span>2023</span><br>Created a Log In form but with the help of YT</li>
+                        <li><span>2022</span><br>I DONT KNOW</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2024-2025</span><br>BSIS First Year Student</li>
+                        <li><span>2023-2024</span><br>Graduated Arts and Design track</li>
+                        <li><span>2022-2023</span><br>Won the artist type shi</li>
+                    </ul>
+                </div>
+        </div>
+    </div>
+</div>
+    </div>
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>I can make you some crispy web designs
+                        honeybunch
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>My forte</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-shuffle"></i>
+                    <h2>App Design</h2>
+                    <p>IDONTKNOWWWWWWWW</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Works</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/img1.jpeg" alt="">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>
+                            This app connects you to the talented people around the world.
+                            Downlaod it from the play store.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/img2.jpeg" alt="">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>
+                            This app connects you to the talented people around the world.
+                            Downlaod it from the play store.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/img3.jpeg" alt="">
+                    <div class="layer">
+                        <h3>Kent App</h3>
+                        <p>
+                            This app connects you to the talented people around the world.
+                            Downlaod it from the play store.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact</h1>
+                    <p><i class="fa-solid fa-envelope"></i>kentmagalang@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>09519753344</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/Kent.hahshsh"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/kennssnn/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.youtube.com/@kennnnnnss"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="kentkentkent"><i class="fa-brands fa-discord"></i></a>
+                    </div>
+                    <a href="resume/Kent patrick marfil.docx" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Pangaran Mo" required>
+                        <input type="email" name="email" placeholder="Email Mo" required>
+                        <textarea name="Message" rows="6" placeholder="Message Mo"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button> 
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <marquee>my deepest gratitude to kevin from YouTube also CTTRO</marquee>
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+    </script>
+    </body>
+</html>
