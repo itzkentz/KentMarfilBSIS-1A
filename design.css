@@ -434,11 +434,11 @@ form .btn2{
         background-image: url(images/phonebackground.png);
     }
     .header-text{
-        margin-top: 100%;
-        font-size: 16px;
+        margin-top: 350px;
+        font-size: 15px;
     }
     .header-text h1{
-        font-size: 26px;
+        font-size: 18px;
     }
 }
 header{
