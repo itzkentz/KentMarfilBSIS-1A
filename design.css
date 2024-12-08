@@ -81,7 +81,15 @@ header ul li a{
     transition: 0.3s;
     
 }
-
+.header-text{
+    margin-top: 25%;
+    padding-right: 100px;
+    font-size: 30px;
+}
+.header-text h1{
+    font-size: 50px;
+    margin-top: 20px;
+}
 .header-text h1 .text{
     position: relative;
     color: #a36361;
@@ -178,16 +186,9 @@ header ul li a:hover::after{
     display: block;
 }
 
-.header-text{
-    margin-top: 25%;
-    padding-right: 100px;
-    font-size: 30px;
-}
 
-.header-text h1{
-    font-size: 50px;
-    margin-top: 20px;
-}
+
+
 
 #About{
     padding: 80px 0;
@@ -428,6 +429,18 @@ form .btn2{
     margin-top: 20px;
     cursor: pointer;
 }
+@media screen and (max-width: 600px) {
+    #header{
+        background-image: url(images/phonebackground.png);
+    }
+    .header-text{
+        margin-top: 100%;
+        font-size: 16px;
+    }
+    .header-text h1{
+        font-size: 26px;
+    }
+}
 header{
     position: fixed;
     top: 0;
@@ -450,6 +463,8 @@ header.sticky{
 header.sticky:hover{
     background: #a36361;
 }
+
+
 /* From Uiverse.io by alexruix */ 
 /* The switch - the box around the slider */
 .switch {
@@ -542,4 +557,5 @@ header.sticky:hover{
     font-weight: bold;
     border-bottom: 2px solid #ff5722;
 }
+
 
