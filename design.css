@@ -311,11 +311,12 @@ header ul li a:hover::after{
     position: relative;
     overflow: hidden;
 }
-.work img{
+.work video{
     width: 100%;
     border-radius: 10px;
     display: flex;
     transition: transform 0.5s;
+    pointer-events: all;
 }
 .layer{
     width: 100%;
@@ -335,6 +336,7 @@ header ul li a:hover::after{
     font-size: 14px;
     transition: 0.5s;
     color: var(--base-color);
+    pointer-events: all;
 }
 .layer h3{
     font-weight: 500;
@@ -352,7 +354,7 @@ header ul li a:hover::after{
     border-radius: 10px;
     text-align: center;
 }
-.work:hover img{
+.work:hover video{
     transform: scale(1.1);
 }
 .work:hover .layer{
@@ -557,5 +559,4 @@ header.sticky:hover{
     font-weight: bold;
     border-bottom: 2px solid #ff5722;
 }
-
 
